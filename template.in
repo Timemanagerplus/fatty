@@ -1,4 +1,5 @@
-assign a=opcode[1]&opcode[0]&!opcode[4]
+assign fatty=opcode[12]&opcode[0]&!opcode[4]
     | opcode[3]&!opcode[5]&en;
-assign b=opcde[3]&!opcode[5]&opcode[6]&!opcode[4]
+//this is comment
+assign xiaopangzi=opcde[3]&!opcode[5]&opcode[6]&!opcode[4]
     |opcode[1]&!opcode[4]&en&opcode[7];
